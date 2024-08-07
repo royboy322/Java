@@ -1,0 +1,72 @@
+/Users/amandarossi/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA Edu.app/Contents/lib/idea_rt.jar=57972:/Applications/IntelliJ IDEA Edu.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/amandarossi/Downloads/Rossi_Amanda_CS207_HW1/out/production/Rossi_Amanda_CS207_HW1 TestShapes
+
+Test 1: Create and add Shape("Red") ==> [Passed]
+
+Test 2: Create and add Circle("White", 5.5) ==> [Passed]
+
+Test 3: Create and add Circle("Blue", 3.5) ==> [Passed]
+
+Test 4: Create and add Rectangle("Yellow", 2.5, 6.3) ==> [Passed]
+
+Test 5: Create and add Rectangle("Green", 1.0, 4.0) ==> [Passed]
+
+Test 6: TestOutput for object Shape ==> [Passed]
+ Expected: 
+  Color: Red
+  Area: 0.0
+  Perimeter: 0.0
+
+ Yours: 
+  Color: Red
+  Area: 0.0
+  Perimeter: 0.0
+
+Test 7: TestOutput for object Circle ==> [Passed]
+ Expected: 
+  Color: White
+  Area: 94.985
+  Perimeter: 34.54
+
+ Yours: 
+  Color: White
+  Area: 94.985
+  Perimeter: 34.54
+
+Test 8: TestOutput for object Circle ==> [Passed]
+ Expected: 
+  Color: Blue
+  Area: 38.465
+  Perimeter: 21.98
+
+ Yours: 
+  Color: Blue
+  Area: 38.465
+  Perimeter: 21.98
+
+Test 9: TestOutput for object Rectangle ==> [Passed]
+ Expected: 
+  Color: Yellow
+  Area: 15.75
+  Perimeter: 17.6
+
+ Yours: 
+  Color: Yellow
+  Area: 15.75
+  Perimeter: 17.6
+
+Test 10: TestOutput for object Rectangle ==> [Passed]
+ Expected: 
+  Color: Green
+  Area: 4.0
+  Perimeter: 10.0
+
+ Yours: 
+  Color: Green
+  Area: 4.0
+  Perimeter: 10.0
+
+Total test cases: 10
+Correct: 10
+Wrong: 0
+
+Process finished with exit code 0
