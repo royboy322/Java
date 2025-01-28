@@ -22,4 +22,8 @@ The GuessTheWord game is a word guessing game where the program selects a word f
 The PersonNode class represents a node in a linked list, containing an ID, name, and a reference to the next node. It provides methods to get and set the ID, name, and link to the next node. The SortedPersonList class manages a sorted linked list of PersonNode objects. It includes functionality to check if the list is empty, return the size of the list, and verify if a node with a specific ID exists. The list allows for retrieving a node by ID and adding new nodes in sorted order. If a node with the same ID exists, it will not be added again. It also supports removing nodes by ID and provides a string representation of the list for display. The nodes are always maintained in ascending order by their ID. <br>
 
 <ins>**StackRecursion**</ins>: <br>
+The CharStack class implements a character stack with methods to check if it's empty, retrieve the top element, push and pop elements, and get the stack's size and string representation.
 
+The LNode class represents a linked list node with an integer value and a link to the next node, providing methods to set/get the link and retrieve the stored value.
+
+The StackRecursion class contains methods to subtract big integers using stacks, approximate pi with recursion, reverse strings recursively, and count occurrences of a key in a linked list starting from a specified position. Each method leverages recursion to break down the task into smaller problems.
