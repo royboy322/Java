@@ -10,5 +10,5 @@ This Java-based Binary Search Tree implementation includes key operations such a
 <ins>Problem 1 </ins>- <br>
 The code defines a base class Shape with methods to calculate area and perimeter, and a toString method for displaying the shape's attributes. The Circle and Rectangle classes extend Shape, overriding the area and perimeter methods to implement specific formulas for each shape. The TestShapes class tests the creation of Shape, Circle, and Rectangle objects, storing them in an array and verifying their output against expected values. The tests check if the toString() method correctly displays the area, perimeter, and color of each shape. <br>
 <ins>Problem 2 </ins>- <br>
-
+The code defines a Time class that handles time in hours, minutes, seconds, and AM/PM format, with a copy constructor and a constructor to initialize the time. The EnhancedTime class extends Time and adds functionality to modify the time by adding seconds, taking into account time wrapping, hour and minute adjustments, and AM/PM transitions. The TestTime class tests the addSeconds method by loading test data from a file, comparing the result of the time adjustment to the expected output, and reporting the number of passed and failed tests. This approach ensures that the time manipulation logic works correctly for various scenarios.
 
