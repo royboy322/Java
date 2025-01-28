@@ -19,4 +19,7 @@ The GuessTheNumber game is a simple console-based number guessing game. The prog
 The GuessTheWord game is a word guessing game where the program selects a word from a predefined list, scrambles its letters, and asks the player to guess the original word. The word is scrambled using the scrambleWord method, which shuffles the letters randomly. The user is prompted to enter a guess, and the game continues until the user guesses correctly. When the correct word is guessed, the program congratulates the player. The Scanner object is used for reading input, and the game uses a loop to keep asking for guesses until the correct one is entered. <br>
 
 <ins>**SortedList**</ins>: <br>
- <br>
+The PersonNode class represents a node in a linked list, containing an ID, name, and a reference to the next node. It provides methods to get and set the ID, name, and link to the next node. The SortedPersonList class manages a sorted linked list of PersonNode objects. It includes functionality to check if the list is empty, return the size of the list, and verify if a node with a specific ID exists. The list allows for retrieving a node by ID and adding new nodes in sorted order. If a node with the same ID exists, it will not be added again. It also supports removing nodes by ID and provides a string representation of the list for display. The nodes are always maintained in ascending order by their ID. <br>
+
+<ins>**StackRecursion**</ins>: <br>
+
